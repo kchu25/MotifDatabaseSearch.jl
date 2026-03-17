@@ -1,0 +1,5 @@
+The motif database file is downloaded from 
+https://meme-suite.org/meme/doc/download.html
+
+Motif database is the file: 
+https://meme-suite.org/meme/meme-software/Databases/motifs/motif_databases.12.27.tgz
