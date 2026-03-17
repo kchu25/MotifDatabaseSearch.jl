@@ -9,16 +9,12 @@ Query PWM/PFM motif databases — JASPAR, HOCOMOCO, CIS-BP, CISBP-RNA, and more 
 
 On first use the database is downloaded, parsed into a local JSON cache, and the raw files are removed. All subsequent queries read from the cache — no repeated downloads.
 
----
-
 ## Installation
 
 ```julia
 using Pkg
 Pkg.add(url="https://github.com/kchu25/MotifDatabaseSearch.jl")
 ```
-
----
 
 ## Getting Started
 
@@ -29,8 +25,6 @@ using MotifDatabaseSearch
 # Later calls: loads the local JSON cache in seconds.
 db = get_db()
 ```
-
----
 
 ## Examples
 
@@ -81,8 +75,6 @@ cols = matrix_columns(pwm) # named tuple: cols.A, cols.C, cols.G, cols.T
 information_content(pwm)   # IC in bits per position
 consensus(pwm)             # e.g. "CACGTG"
 ```
-
----
 
 ## Cache Management
 
