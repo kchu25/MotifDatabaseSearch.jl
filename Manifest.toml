@@ -1,0 +1,10 @@
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.12.2"
+manifest_format = "2.0"
+project_hash = "60c0077a820253258067ab5924e65f71ee12e6bf"
+
+[[deps.MotifDatabaseSearch]]
+path = "."
+uuid = "e8ecd638-8c2e-49f9-abbb-199eab62b486"
+version = "1.0.0-DEV"
